@@ -169,9 +169,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = blogPosts.find((p) => p.id === resolvedParams.id);
   if (!post) return { title: 'Post Not Found' };
   
+  const canonicalUrl = `/blog/${post.id}`;
+  const fullTitle = `${post.title} – Tiger 365 ID`;
+
   return {
-    title: `${post.title} – Tiger 365 ID`,
+    title: fullTitle,
     description: post.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: fullTitle,
+      description: post.excerpt,
+      url: `https://tiger365bookie.com${canonicalUrl}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: fullTitle,
+      description: post.excerpt,
+    },
   };
 }
 
@@ -188,7 +204,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Info banner */}
       <div className="w-full bg-blue-950/60 border-b border-blue-500/20 py-2 px-4 text-center">
         <p className="text-xs text-blue-300/80">
-          <span className="font-semibold">Note:</span> tigerbluebook.com is an informational website only and does not offer betting services.
+          <span className="font-semibold">Note:</span> tiger365bookie.com is an informational website only and does not offer betting services.
         </p>
       </div>
 

@@ -15,7 +15,7 @@ export default function Disclaimer() {
             <div>
               <h3 className="text-blue-500/80 font-bold text-sm uppercase tracking-wider mb-3">Disclaimer</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                <span className="font-semibold text-gray-500">Note: tigerbluebook.com is an informational website only and does not offer betting services.</span>{' '}
+                <span className="font-semibold text-gray-500">Note: tiger365bookie.com is an informational website only and does not offer betting services.</span>{' '}
                 This website is intended solely for informational and educational purposes. We do not operate a betting or gambling platform. 
                 We facilitate the provision of online gaming IDs and do not directly engage in any form of sports betting or wagering. 
                 Users are solely responsible for ensuring that accessing such services is legal in their respective jurisdictions. 

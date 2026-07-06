@@ -6,6 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700', '800', '900'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tiger365bookie.com'),
   title: 'Tiger 365 ID – Get Your Online Cricket Betting ID | Tiger365',
   description:
     'Tiger365 ID is your trusted online cricket betting ID provider. Get instant access to premium sports betting, live cricket, casino games, and Aviator with 24/7 support. INR accepted.',
@@ -21,12 +22,28 @@ export const metadata: Metadata = {
     'IPL betting ID',
     'T20 betting',
   ],
-  authors: [{ name: 'Tiger 365 ID' }],
+  applicationName: 'Tiger365',
+  authors: [{ name: 'Tiger365' }],
+  creator: 'Tiger365',
+  publisher: 'Tiger365',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Tiger 365 ID – Online Cricket Betting ID Provider',
     description: 'Get your Tiger365 ID and start betting on cricket, football, and live casino games. 24/7 support. Instant setup.',
     type: 'website',
     locale: 'en_IN',
+    url: 'https://tiger365bookie.com',
+    siteName: 'Tiger365',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tiger 365 ID – Online Cricket Betting ID Provider',
+    description: 'Get your Tiger365 ID and start betting on cricket, football, and live casino games. 24/7 support. Instant setup.',
+  },
+  icons: {
+    icon: '/favicon.ico',
   },
   robots: {
     index: true,
