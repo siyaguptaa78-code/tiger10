@@ -65,18 +65,19 @@ export default function HeroSection() {
                 <span className="text-blue-400">id</span>
               </h1>
               <p className="mt-4 text-2xl sm:text-3xl font-bold text-white leading-snug">
-                The Future of{' '}
+                The Future Of{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-amber-400">
                   Professional Gaming
                 </span>{' '}
-                Starts Now
+                Starts Today
               </p>
             </div>
 
             {/* Description */}
             <div className="animate-on-scroll opacity-0 translate-y-8 transition-all duration-700 delay-200">
               <p className="text-gray-400 text-lg leading-relaxed max-w-lg">
-                Get your official Tiger365 ID and access the best cricket betting, live sports, and casino games. Secure, fast, and available 24/7 with dedicated customer support.
+                Get your Official Tiger365 ID and Enjoy Cricket Betting , Live Sports & Casino Gaming<br/>
+                Secure And Instant With 247 Customer Support
               </p>
             </div>
 
@@ -122,7 +123,7 @@ export default function HeroSection() {
                   <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Instant Setup
+                  Instant Activation
                 </div>
                 <div className="flex items-center gap-1">
                   <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -134,7 +135,7 @@ export default function HeroSection() {
                   <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Encrypted & Safe
+                  Encrypted & Secured
                 </div>
               </div>
             </div>

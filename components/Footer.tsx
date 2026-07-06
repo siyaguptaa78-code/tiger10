@@ -19,8 +19,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-600 text-sm leading-relaxed mb-6 max-w-xs">
-              Your trusted partner for online cricket betting IDs and sports gaming access in India. 
-              Safe, secure, and available 24/7.
+              Your one-stop solution for online cricket betting id's and sports gaming . Safe & secure 247
             </p>
             <a
               href={WA_LINK}
@@ -100,7 +99,7 @@ export default function Footer() {
       <div className="border-t border-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-700 text-sm text-center sm:text-left">
-            Copyright © 2026 <span className="text-blue-500 font-medium">Tiger 365 Id</span>. All Rights Reserved.
+            Copyright © 2026 <span className="text-blue-500 font-medium">Tiger365id</span> . All Rights Reserved.
           </p>
           <div className="flex items-center gap-4">
             <span className="text-gray-800 text-xs">Informational website only — does not offer betting services</span>

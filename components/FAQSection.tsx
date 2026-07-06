@@ -115,7 +115,7 @@ export default function FAQSection() {
 
         {/* Final CTA */}
         <div className="text-center mt-14">
-          <p className="text-gray-500 mb-6">Still have questions? Contact us on WhatsApp!</p>
+          <p className="text-gray-500 mb-6">Still Have Questions? Contact Us On WhatsApp!</p>
           <a
             href={WA_LINK}
             id="faq-cta"

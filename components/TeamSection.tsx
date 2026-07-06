@@ -30,9 +30,7 @@ export default function TeamSection() {
         </h2>
 
         <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed mb-12">
-          Our dedicated team of gaming experts and customer support specialists are available 24/7 to ensure
-          you get the best experience. From account setup to live betting assistance — we&apos;ve got you covered
-          every step of the way.
+          Our experienced team of gaming specialists and customer support executives are available 247 to ensure that you have a seamless experience. From account opening assistance to live betting support, our team is here to help you
         </p>
 
         {/* Team avatars */}
@@ -83,7 +81,7 @@ export default function TeamSection() {
             <span className="text-blue-400">MORE!</span>
           </div>
           <div className="mt-6 text-gray-500 text-lg">
-            Join thousands of players already winning with Tiger365 ID
+            Join thousands of players who are already winning big with Tiger365 ID
           </div>
         </div>
 

@@ -1,15 +1,15 @@
 'use client';
 
 const supportBullets = [
-  { icon: '👤', title: 'Personalized Assistance', desc: 'Dedicated agents assigned to your account for tailored support.' },
-  { icon: '🕐', title: '24/7 Support', desc: 'Round-the-clock availability via WhatsApp, chat, and call.' },
-  { icon: '📞', title: 'Multiple Contact Options', desc: 'Reach us via WhatsApp, Telegram, or email anytime.' },
+  { icon: '👤', title: 'Personalized Assistance', desc: 'Dedicated agents assigned to you for personalized assistance' },
+  { icon: '🕐', title: '24/7 Support', desc: 'We are always here to help you out 24/7 via WhatsApp, chat and call' },
+  { icon: '📞', title: 'Multiple Contact Options', desc: 'You can contact us anytime via WhatsApp, Telegram or Email' },
 ];
 
 const paymentBullets = [
-  { icon: '⚡', title: 'Fast Transactions', desc: 'Deposits credited within minutes, withdrawals processed same day.' },
-  { icon: '🌍', title: 'Local Currency Support', desc: 'All transactions in Indian Rupees with local bank support.' },
-  { icon: '₹', title: 'INR Accepted', desc: 'Full support for INR with no currency conversion fees.' },
+  { icon: '⚡', title: 'Fast Transactions', desc: 'Deposits credited instantly and withdrawals processed same day' },
+  { icon: '🌍', title: 'Local Currency Support', desc: 'All transactions in local INR currency with local banks' },
+  { icon: '₹', title: 'INR Accepted', desc: 'We support INR currency' },
 ];
 
 export default function PaymentSupport() {
@@ -22,9 +22,7 @@ export default function PaymentSupport() {
             Payments & Support
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight">
-            Fast and Reliable{' '}
-            <span className="text-blue-500">Payment Methods</span>{' '}
-            Available
+            Payment and Support options that help us provide you with fast and secure services
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-amber-400 rounded-full mx-auto mt-4"></div>
         </div>
@@ -80,8 +78,8 @@ export default function PaymentSupport() {
                 💳
               </div>
               <div>
-                <h3 className="text-2xl font-black text-white">Secure, Fast, and Flexible Payment Options</h3>
-                <p className="text-blue-400 text-sm font-medium">Instant transactions</p>
+                <h3 className="text-2xl font-black text-white">Quick and Easy Payment Options</h3>
+                <p className="text-blue-400 text-sm font-medium">Make deposits instantly and withdraw anytime, anywhere</p>
               </div>
             </div>
 

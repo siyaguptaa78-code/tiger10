@@ -5,25 +5,25 @@ import { WA_LINK } from './constants';
 const features = [
   {
     id: 'safe-reliable',
-    title: 'Enjoy Safe, Reliable, and Exciting Cricket Betting at Tiger365ID',
+    title: 'Get Access To Safe , Reliable & Exciting Cricket Betting At Tiger365ID',
     description:
-      'Tiger365ID is built with security and reliability at its core. Every transaction and betting activity is protected by advanced SSL encryption. Our platform ensures your funds and personal data are always safe. We partner with top-rated betting exchanges to provide the most accurate odds and fastest settlements in the industry, giving you a trustworthy experience every time.',
+      'Tiger365ID believes in giving you a secure platform for all your cricket betting needs. All financial transactions and betting activities are highly confidential and protected with military grade encryptions. We work with authorized and trusted betting exchanges to give you best odds and competitive rates.',
     icon: '🔒',
     highlight: 'Safe & Secure',
   },
   {
     id: 'full-potential',
-    title: 'Discover Your Full Betting Potential with Tiger365ID',
+    title: 'Explore Your Maximum Cricket Betting Potential With Tiger365ID',
     description:
-      'Whether you love pre-match analysis or the thrill of live betting, Tiger365ID gives you the tools to maximize your winnings. Access a wide variety of cricket markets — from match winner to over/under runs, top batsman, and player performance betting. Our platform provides real-time data, expert insights, and competitive odds to help you make informed decisions and unlock your full betting potential.',
+      'Whether you love pre match or live match betting, Tiger365ID gives you access to a wide range of cricket betting opportunities. You can bet on all possible outcomes of a cricket match. From match winner to top scorer and sixes, boundaries, odds on-run and many more. Our experts help you analyze the game to find best betting opportunities.',
     icon: '📈',
     highlight: 'Maximum Potential',
   },
   {
     id: 'live-cricket',
-    title: 'Enjoy Thrilling Live Cricket Betting with Tiger365ID',
+    title: 'Enjoy The Thrilling Live Cricket Betting With Tiger365ID',
     description:
-      'There is nothing quite like the adrenaline rush of live cricket betting. Tiger365ID lets you bet on every ball, over, and wicket in real time with lightning-fast odds updates. Watch live scores, track match momentum, and place in-play bets on your favorite teams and players. With our 24/7 support team backing every session, live cricket betting has never been this smooth or exciting.',
+      'There is nothing more thrilling than enjoying a live cricket match and placing real time bets. Tiger365ID gives you an option to bet on each and every ball, over and wicket of your favorite cricketer. You can watch live scores and commentary of a cricket match and place bets at the same time. With our 247 customer support, you can bet with confidence and peace of mind',
     icon: '⚡',
     highlight: 'Live Action',
   },
