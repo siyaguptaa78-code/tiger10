@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://tiger365bookie.com'),
+  verification: {
+    google: "JkiCxR9uKmAHmEhZTgKQT_uTVEjdK5iRiVK-i1LAPGQ",
+  },
   title: 'Tiger365id Cricket365',
   description: 'Tiger365 id',
   keywords: [
