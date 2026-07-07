@@ -16,12 +16,12 @@ export default function AboutSection() {
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-6 leading-tight">
               Tiger 365 ID:{' '}
-              <span className="text-blue-500">Your Official Access</span> To Online Gaming ID's And Sports Betting
+              <span className="text-blue-500">Your Official Access</span> To Online Gaming ID&apos;s And Sports Betting
             </h2>
 
             <div className="space-y-5 text-gray-400 text-base leading-relaxed">
               <p>
-                Tiger 365 ID is your official access to online gaming id's and sports betting in India. We specialize in providing authorized access credentials to premium betting exchanges and platforms. With Tiger365 ID, you can enjoy betting on cricket, football, tennis and much more with ease and convenience
+                Tiger 365 ID is your official access to online gaming id&apos;s and sports betting in India. We specialize in providing authorized access credentials to premium betting exchanges and platforms. With Tiger365 ID, you can enjoy betting on cricket, football, tennis and much more with ease and convenience
               </p>
 
               <p>

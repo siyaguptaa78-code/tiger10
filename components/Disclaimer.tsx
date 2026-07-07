@@ -15,7 +15,7 @@ export default function Disclaimer() {
             <div>
               <h3 className="text-blue-500/80 font-bold text-sm uppercase tracking-wider mb-3">Disclaimer</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                <span className="font-semibold text-gray-500">Note: tiger365bookie .com is an informative site . This site does not provide any betting services . We are an informational / educational website . We do not operate a betting or gambling site . We provide online gaming id's and do not involve in any sort of betting or gambling activity . It is the user's responsibility to check if online betting services are legal in his/her country .</span><br /><br />
+                <span className="font-semibold text-gray-500">Note: tiger365bookie .com is an informative site . This site does not provide any betting services . We are an informational / educational website . We do not operate a betting or gambling site . We provide online gaming id&apos;s and do not involve in any sort of betting or gambling activity . It is the user&apos;s responsibility to check if online betting services are legal in his/her country .</span><br /><br />
                 We are not responsible for any losses or claims that may arise due to use of the services provided by us .<br />
                 It is illegal to gamble in some countries and we are not responsible for any legal consequences that may arise due to use of our services .<br />
                 By using this website you agree to the terms and conditions mentioned herein.<br />

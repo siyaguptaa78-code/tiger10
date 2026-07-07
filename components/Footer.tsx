@@ -19,7 +19,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-600 text-sm leading-relaxed mb-6 max-w-xs">
-              Your one-stop solution for online cricket betting id's and sports gaming . Safe & secure 247
+              Your one-stop solution for online cricket betting id&apos;s and sports gaming . Safe & secure 247
             </p>
             <a
               href={WA_LINK}
