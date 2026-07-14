@@ -24,6 +24,18 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    id: 'fifa-world-cup-winners-list',
+    title: 'FIFA World Cup Winners List: All Champions',
+    excerpt: 'Every FIFA World Cup winner from 1930 to today, titles by country, and the 2026 final. The complete list, updated the moment a new champion is crowned.',
+    category: 'Football',
+    date: 'July 10, 2026',
+    readTime: '5 min read',
+    emoji: '🏆',
+    color: 'from-yellow-900/30 to-black',
+    customLink: '/fifa-world-cup-winners-list/',
+    btnText: 'Read More',
+  },
+  {
     id: 'ipl-betting-tips-2024',
     title: 'Top IPL Betting Tips for 2026 Season',
     excerpt: 'Get the best strategies for IPL betting this season. Learn how to analyze team performance, pitch conditions, and player form to maximize your winnings.',
@@ -160,10 +172,10 @@ export default function BlogPage() {
                   <div className="flex items-center justify-between pt-4 border-t border-gray-800">
                     <span className="text-gray-700 text-xs">{post.date}</span>
                     <Link
-                      href={`/blog/${post.id}`}
+                      href={post.customLink || `/blog/${post.id}`}
                       className="text-blue-500 hover:text-blue-400 text-sm font-medium transition-colors flex items-center gap-1"
                     >
-                      Read More
+                      {post.btnText || 'Read More'}
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
